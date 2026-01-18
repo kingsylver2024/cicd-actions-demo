@@ -17,3 +17,5 @@ jobs:
           echo "Repository: \${{ github.repository }}"
           echo "Branche: \${{ github.ref_name }}"
           echo "Auteur du commit: \${{ github.actor }}"
+          echo "SHA du commit: \${{ github.sha }}"
+          echo "ID unique de cette exécution: \${{ github.run_id }}"
